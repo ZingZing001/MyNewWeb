@@ -5,3 +5,15 @@ body {
 ul {
     font-family: helvetica;
 }
+
+li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  #msg {
+    font-family: monospace;
+  }
