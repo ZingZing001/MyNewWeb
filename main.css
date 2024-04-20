@@ -1,3 +1,11 @@
+:root{
+    --green: #00FF00;;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+
+
 body {
     font-family: monospace;
 }
@@ -19,8 +27,11 @@ li {
   }
 
   .light-theme {
-    color: #000000;
-    background-color: #00FF00;
-
+    --bg: var(--green);
+    --fontColor: var(--black);s
+  }
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
   }
     
