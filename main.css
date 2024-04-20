@@ -27,6 +27,7 @@ li {
     --btnBg: var(--black);
     --btnFontColor: var(--white);
   }
+  
   .dark-theme {
     --bg: var(--black);
     --fontColor: var(--green);
@@ -34,7 +35,7 @@ li {
     --btnFontColor: var(--black);
   }
   
-  .btn{
+  .btn {
     position: absolute;
     top: 20px;
     left: 250px;
