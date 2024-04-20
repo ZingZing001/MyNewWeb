@@ -7,10 +7,8 @@
 
 
 body {
-    font-family: monospace;
-}
-
-ul {
+    background: var(--bg);
+    color: var(--fontColor);
     font-family: helvetica;
 }
 
@@ -22,9 +20,6 @@ li {
     list-style: square;
   }
   
-  #msg {
-    font-family: monospace;
-  }
 
   .light-theme {
     --bg: var(--green);
